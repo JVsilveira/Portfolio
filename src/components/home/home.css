@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   font-family: monospace;
-  font-size: 150px;
+  font-size: 100px;
   margin-top: 150px;
 }
 .texto {
@@ -13,5 +13,5 @@
   padding: 50px;
   margin-top: 50px;
   display: flex;
-  font-size: 30px;
+  font-size: 25px;
 }

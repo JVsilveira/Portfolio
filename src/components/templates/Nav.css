@@ -21,6 +21,5 @@
 
 .menu-area {
   display: flex;
-  width: 180px;
-  height: 859px;
+  flex: 1;
 }

@@ -4,6 +4,7 @@
 }
 
 .App {
+  border: 1px solid red;
   display: flex;
   flex-direction: row;
   height: 100vh;
@@ -11,6 +12,7 @@
 }
 
 .cantoEsquerdo {
+  border: 1px solid red;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
