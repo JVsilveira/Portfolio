@@ -1,0 +1,26 @@
+.menu a:hover {
+  background-color: #838383;
+  color: black;
+}
+.menu {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.menu a {
+  text-align: center;
+  padding: 85px 0px;
+  font-size: x-large;
+  flex: 1;
+  text-decoration: none;
+  color: azure;
+  width: 100%;
+}
+
+.menu-area {
+  display: flex;
+  width: 180px;
+  height: 859px;
+}

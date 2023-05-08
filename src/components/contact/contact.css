@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+  padding: 50px 250px;
+  height: 400px;
+  font-size: 40px;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.linkedin {
+  height: 300px;
+}
+.insta {
+  height: 300px;
+}
+.email {
+  height: 300px;
+}
+.github {
+  height: 300px;
+}
