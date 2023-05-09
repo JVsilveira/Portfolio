@@ -11,10 +11,12 @@
 }
 
 .cantoEsquerdo {
+  border: 1px solid red;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   width: 100px;
+  height: 100%;
 }
 
 .alinhamento {
