@@ -14,12 +14,13 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  width: 100px;
 }
 
 .alinhamento {
-  width: 100%;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  width: 100%;
   justify-content: space-between;
 }

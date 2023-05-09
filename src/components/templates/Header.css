@@ -1,5 +1,8 @@
 header.header {
   height: 150px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   text-align: center;
   background-color: black;
   color: azure;
