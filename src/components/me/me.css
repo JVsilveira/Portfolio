@@ -1,8 +1,7 @@
 .pag {
-  height: 350px;
+  height: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
 .meuNome {
   display: flex;
@@ -16,7 +15,7 @@
 }
 .ilustracao {
   display: flex;
-  margin-top: 40px;
+  margin-top: 10px;
   justify-content: center;
   flex: 1;
 }
