@@ -17,3 +17,25 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
 }
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: azure;
+  }
+
+  .joao {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  .dev {
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+  }
+}

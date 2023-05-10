@@ -25,3 +25,33 @@
   display: flex;
   flex: 1;
 }
+
+@media (max-width: 768px) {
+  .menu a:hover {
+    background-color: #838383;
+    color: black;
+  }
+  .menu {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 60px;
+  }
+  .menu a {
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: azure;
+  }
+
+  .menu-area {
+    display: flex;
+    flex: 1;
+  }
+}

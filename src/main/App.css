@@ -25,3 +25,13 @@
   width: 100%;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  .cantoEsquerdo {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 60px;
+    height: 100%;
+  }
+}
