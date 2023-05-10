@@ -37,11 +37,12 @@
 }
 
 .nome {
+  margin-left: 120px;
   height: 150px;
-  width: 550px;
+  width: 400px;
   display: flex;
   align-self: center;
-  justify-content: end;
+  justify-content: center;
   font-size: 90px;
   font-family: 'Satisfy', cursive;
 }
