@@ -3,7 +3,7 @@ import './Header.css'
 
 export default props => (
   <header className="header">
-    <h1 className="">João Vitor dos Santos Silveira</h1>
-    <p> Desenvolvedor WEB</p>
+    <h1 className="joao">João Vitor dos Santos Silveira</h1>
+    <p className="dev"> Desenvolvedor WEB</p>
   </header>
 )

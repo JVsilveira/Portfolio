@@ -1,19 +1,19 @@
-header.header {
+.header {
   display: flex;
   flex-direction: column;
-  height: 122px;
+  height: 70px;
   justify-content: center;
   text-align: center;
   background-color: black;
   color: azure;
 }
 
-header.header h1 {
+.joao {
+  margin-top: 10px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 36px;
+  font-size: 30px;
 }
-
-header.header p {
+.dev {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 15px;
 }

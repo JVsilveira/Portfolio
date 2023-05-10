@@ -1,9 +1,15 @@
+.ajuste {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+}
+
 .bemVindo {
   display: flex;
   justify-content: center;
   font-family: monospace;
-  font-size: 100px;
-  margin-top: 150px;
+  font-size: 120px;
 }
 .texto {
   text-align: center;
@@ -11,7 +17,6 @@
   justify-content: center;
   align-content: center;
   padding: 50px;
-  margin-top: 50px;
   display: flex;
   font-size: 25px;
 }

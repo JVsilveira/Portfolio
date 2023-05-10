@@ -1,17 +1,17 @@
+.contato {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex: 1;
+}
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
-  margin-top: 150px;
-  margin-left: 200px;
-  margin-right: 200px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .images {
-  margin-top: 200px;
-  margin-left: 300px;
-  margin-right: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -19,14 +19,11 @@
 }
 
 .linkedin {
-  height: 100px;
+  height: 150px;
 }
 .insta {
-  height: 100px;
-}
-.email {
-  height: 100px;
+  height: 150px;
 }
 .github {
-  height: 100px;
+  height: 150px;
 }
