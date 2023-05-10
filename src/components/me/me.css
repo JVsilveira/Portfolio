@@ -38,10 +38,10 @@
 
 .nome {
   height: 150px;
-  width: 400px;
+  width: 550px;
   display: flex;
   align-self: center;
-  justify-content: center;
+  justify-content: end;
   font-size: 90px;
   font-family: 'Satisfy', cursive;
 }
