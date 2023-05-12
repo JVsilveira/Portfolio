@@ -17,3 +17,14 @@ footer.footer {
     color: black;
   }
 }
+
+@media (max-width: 576px) {
+  footer.footer {
+    height: 13px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    color: black;
+  }
+}

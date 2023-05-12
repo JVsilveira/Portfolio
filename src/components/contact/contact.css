@@ -28,3 +28,36 @@
 .github {
   height: 150px;
 }
+
+@media (max-width: 576px) {
+  .contato {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex: 1;
+  }
+  .contact {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    font-size: 13px;
+  }
+  .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .linkedin {
+    height: 60px;
+  }
+  .insta {
+    height: 60px;
+  }
+  .github {
+    height: 60px;
+  }
+}

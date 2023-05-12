@@ -55,3 +55,32 @@
     flex: 1;
   }
 }
+
+@media (max-width: 576px) {
+  .menu a:hover {
+    background-color: #838383;
+    color: black;
+  }
+  .menu {
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+  .menu a {
+    display: flex;
+    text-align: center;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: azure;
+  }
+
+  .menu-area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+}
