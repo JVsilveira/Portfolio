@@ -1,36 +1,36 @@
 .projects {
-  flex: 1;
+  padding: 40px 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .image {
   display: flex;
-  flex: 1;
+
   flex-direction: row;
   justify-content: space-around;
 }
 
 .flappy {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 .crud {
-  height: 200px;
-  width: 350px;
+  height: 150px;
+  width: 250px;
 }
 
 .calculadora {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 .emProcesso {
-  flex: 1;
+  padding: 60px 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
