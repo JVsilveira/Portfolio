@@ -35,7 +35,51 @@
   flex-direction: row;
   justify-content: space-around;
 }
+@media (max-width: 768px) {
+  .auxilio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+  }
+  .projects {
+    display: flex;
+    flex: 0;
+    padding: 60px 10px;
+    font-size: 14px;
+  }
 
+  .image {
+    display: flex;
+    flex: 0;
+    padding: 80px 10px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .flappy {
+    height: 60px;
+    width: 60px;
+  }
+
+  .crud {
+    height: 60px;
+    width: 100px;
+  }
+
+  .calculadora {
+    height: 60px;
+    width: 60px;
+  }
+
+  .emProcesso {
+    display: flex;
+    flex: 0;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 @media (max-width: 576px) {
   .auxilio {
     display: flex;

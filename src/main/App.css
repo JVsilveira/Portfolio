@@ -27,12 +27,25 @@
 }
 
 @media (max-width: 768px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
   .cantoEsquerdo {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+  }
+  .alinhamento {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    width: 60px;
-    height: 100%;
+    width: 100vw;
+    justify-content: space-between;
   }
 }
 

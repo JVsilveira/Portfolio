@@ -141,3 +141,78 @@
     box-shadow: 0px 0px 15px #0004;
   }
 }
+@media (max-width: 768px) {
+  .pag {
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+  }
+  .meuNome {
+    height: 100px;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .saudacao {
+    margin-top: 20px;
+    width: 60px;
+    height: 30px;
+    align-items: flex-end;
+    margin-left: 20px;
+    align-self: flex-start;
+    display: flex;
+    font-size: 10px;
+  }
+
+  .nome {
+    margin: 0;
+    margin-top: -10px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+  }
+  .vazia {
+    display: flex;
+    flex: 0;
+  }
+  .ilustracao {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    justify-content: center;
+    flex: 0;
+  }
+
+  .Ilustracao1 {
+    box-shadow: 0px 0px 15px #0004;
+    width: 80px;
+    height: 100px;
+    border-radius: 35%;
+  }
+
+  .areaTexto {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sobre {
+    padding: 5px;
+    display: flex;
+    height: 420px;
+    width: 290px;
+    background-color: #fff;
+    font-size: 13px;
+    text-align: justify;
+    box-shadow: 0px 0px 15px #0004;
+  }
+}
