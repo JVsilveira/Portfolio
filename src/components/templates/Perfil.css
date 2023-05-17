@@ -1,12 +1,12 @@
 .Perfil img {
   padding: 5px;
   width: 80px;
-  height: 70px;
+  height: 64px;
   border-radius: 50%;
 }
 .Perfil {
   display: flex;
-  width: 90px;
+  width: 80px;
   flex-direction: row;
   align-items: center;
   justify-content: center;

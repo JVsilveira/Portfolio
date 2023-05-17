@@ -12,11 +12,11 @@
 .joao {
   margin-top: 10px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 .dev {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 @media (max-width: 768px) {

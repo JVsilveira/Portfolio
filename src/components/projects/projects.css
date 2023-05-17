@@ -1,40 +1,55 @@
-.projects {
-  padding: 40px 10px;
+.auxilio {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  box-shadow: 0px 0px 15px #0005;
+  background-color: #fff;
+}
+.projects {
+  display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+  flex: 1;
+  font-size: 30px;
 }
 
 .image {
   display: flex;
-
-  flex-direction: row;
+  width: 100%;
+  flex: 1;
+  padding: 0 50px;
   justify-content: space-around;
 }
 
 .flappy {
-  height: 150px;
-  width: 150px;
+  box-shadow: 0px 0px 15px #0005;
+  height: 200px;
+  width: 200px;
+}
+.flappy:hover {
+  opacity: 0.5;
 }
 
 .crud {
-  height: 150px;
-  width: 250px;
+  box-shadow: 0px 0px 15px #0005;
+  height: 200px;
+  width: 350px;
+}
+.crud:hover {
+  opacity: 0.5;
 }
 
 .calculadora {
-  height: 150px;
-  width: 150px;
+  box-shadow: 0px 0px 15px #0005;
+  height: 200px;
+  width: 200px;
+}
+.calculadora:hover {
+  opacity: 0.5;
 }
 
-.emProcesso {
-  padding: 60px 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 @media (max-width: 768px) {
   .auxilio {
     display: flex;

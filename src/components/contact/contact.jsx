@@ -7,26 +7,24 @@ import Github from '../../assets/imgs/github.png'
 
 export default () => (
   <Main>
-    <div className="contato">
-      <div></div>
-      <div className="contact">
-        Para falar comigo ou me conhecer melhor, basta tocar nas imagens a baixo
-        que irão redirecionar aos devidos sites.
+    <div className="pag">
+      <div className="contato">
+        <div className="contact">
+          Para falar comigo ou me conhecer melhor, basta tocar nas imagens a
+          baixo que irão redirecionar aos devidos sites.
+        </div>
+        <div className="images">
+          <a href="https://www.instagram.com/jvsilveira_03/">
+            <img src={Insta} className="insta" />
+          </a>
+          <a href="http://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-silveira/">
+            <img src={Linkedin} className="linkedin" />
+          </a>
+          <a href="https://github.com/JVsilveira">
+            <img src={Github} className="github" />
+          </a>
+        </div>
       </div>
-      <div className="images">
-        <div></div>
-        <a href="https://www.instagram.com/jvsilveira_03/">
-          <img src={Insta} className="insta" />
-        </a>
-        <a href="http://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-silveira/">
-          <img src={Linkedin} className="linkedin" />
-        </a>
-        <a href="https://github.com/JVsilveira">
-          <img src={Github} className="github" />
-        </a>
-        <div></div>
-      </div>
-      <div></div>
     </div>
   </Main>
 )
