@@ -14,13 +14,19 @@ export default () => (
           baixo que irão redirecionar aos devidos sites.
         </div>
         <div className="images">
-          <a href="https://www.instagram.com/jvsilveira_03/">
+          <a
+            className="ajustaImagem"
+            href="https://www.instagram.com/jvsilveira_03/"
+          >
             <img src={Insta} className="insta" />
           </a>
-          <a href="http://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-silveira/">
+          <a
+            className="ajustaImagem"
+            href="http://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-silveira/"
+          >
             <img src={Linkedin} className="linkedin" />
           </a>
-          <a href="https://github.com/JVsilveira">
+          <a className="ajustaImagem" href="https://github.com/JVsilveira">
             <img src={Github} className="github" />
           </a>
         </div>
