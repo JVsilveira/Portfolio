@@ -11,11 +11,10 @@ export default () => (
           <img src={Ilustracao1} className="Ilustracao1" alt="Ilustracao1" />
         </div>
         <div className="meuNome">
-          <p className="saudacao">
-            Meu nome é <p className="nome"> João Vitor</p>{' '}
-          </p>
-          <hr />
-          <p className="sobre">
+          <div className="saudacao">
+            Meu nome é <div className="nome"> João Vitor</div>
+          </div>
+          <div className="sobre">
             Nascido em 07 de março de 2003, na cidade de Guaíba-RS, atuei como
             Suporte TI nos Registros Públicos de Barra do Ribeiro por 2 anos e 2
             meses, realizando manutenção de computadores, servidores e bancos de
@@ -29,7 +28,7 @@ export default () => (
             aprimorar minhas habilidades e conhecimentos. Busco uma oportunidade
             como desenvolvedor Front-End, embora também possa atuar na área de
             Back-End.
-          </p>
+          </div>
         </div>
       </div>
     </div>
