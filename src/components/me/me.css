@@ -24,7 +24,6 @@
 
 .ilustracao {
   display: flex;
-  flex: 1;
   justify-content: center;
   align-items: center;
 }
@@ -37,7 +36,6 @@
 .saudacao {
   color: #fff;
   display: flex;
-  flex: 1;
   flex-direction: row;
   justify-content: center;
   align-items: center;
