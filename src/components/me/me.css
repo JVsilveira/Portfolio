@@ -22,12 +22,6 @@
   width: 100%;
 }
 
-.ilustracao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .meuNome {
   display: flex;
   flex: 1;
