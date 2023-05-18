@@ -10,26 +10,26 @@
   border-radius: 16px;
   display: flex;
   flex-direction: row;
-  height: 70%;
-  width: 65%;
+  height: 80%;
+  width: 70%;
   box-shadow: 0px 0px 15px #0005;
   background-color: #2b2d31;
 }
 
 .Ilustracao1 {
+  height: 73.4vh;
+  width: 35vw;
   border-radius: 16px 0 0 16px;
-  height: 100%;
-  width: 100%;
 }
 .ilustracao {
   display: flex;
-  flex: 50%;
+  flex: 1;
   flex-direction: column;
 }
 
 .meuNome {
   display: flex;
-  flex: 50%;
+  flex: 1;
   flex-direction: column;
 }
 .saudacao {
