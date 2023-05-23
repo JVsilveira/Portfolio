@@ -52,93 +52,115 @@
   opacity: 0.5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
   .auxilio {
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 70%;
+    box-shadow: 0px 0px 15px #0005;
+    background-color: #2b2d31;
   }
   .projects {
+    color: #fff;
     display: flex;
-    flex: 0;
-    padding: 60px 10px;
-    font-size: 14px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 22px;
   }
 
   .image {
     display: flex;
-    flex: 0;
-    padding: 80px 10px;
-    flex-direction: row;
+    width: 100%;
+    flex: 1;
+    padding: 0 50px;
     justify-content: space-around;
   }
 
   .flappy {
-    height: 60px;
-    width: 60px;
+    box-shadow: 0px 0px 15px #0005;
+    height: 150px;
+    width: 150px;
+  }
+  .flappy:hover {
+    opacity: 0.5;
   }
 
   .crud {
-    height: 60px;
-    width: 100px;
+    box-shadow: 0px 0px 15px #0005;
+    height: 150px;
+    width: 250px;
+  }
+  .crud:hover {
+    opacity: 0.5;
   }
 
   .calculadora {
-    height: 60px;
-    width: 60px;
+    box-shadow: 0px 0px 15px #0005;
+    height: 150px;
+    width: 150px;
   }
-
-  .emProcesso {
-    display: flex;
-    flex: 0;
-    flex-direction: row;
-    justify-content: space-around;
+  .calculadora:hover {
+    opacity: 0.5;
   }
 }
 @media (max-width: 576px) {
   .auxilio {
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
-    width: 100%;
+    height: 60%;
+    width: 85%;
+    box-shadow: 0px 0px 15px #0005;
+    background-color: #2b2d31;
   }
   .projects {
+    color: #fff;
     display: flex;
-    flex: 0;
-    padding: 60px 10px;
-    font-size: 14px;
+    width: 100%;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 0 10px;
+    font-size: 15px;
   }
 
   .image {
     display: flex;
-    flex: 0;
-    padding: 80px 10px;
-    flex-direction: row;
+    width: 100%;
+    flex: 1;
+    padding: 0 5px;
     justify-content: space-around;
   }
 
   .flappy {
-    height: 60px;
-    width: 60px;
+    box-shadow: 0px 0px 15px #0005;
+    height: 65px;
+    width: 65px;
+  }
+  .flappy:hover {
+    opacity: 0.5;
   }
 
   .crud {
-    height: 60px;
+    box-shadow: 0px 0px 15px #0005;
+    height: 65px;
     width: 100px;
+  }
+  .crud:hover {
+    opacity: 0.5;
   }
 
   .calculadora {
-    height: 60px;
-    width: 60px;
+    box-shadow: 0px 0px 15px #0005;
+    height: 65px;
+    width: 65px;
   }
-
-  .emProcesso {
-    display: flex;
-    flex: 0;
-    flex-direction: row;
-    justify-content: space-around;
+  .calculadora:hover {
+    opacity: 0.5;
   }
 }

@@ -40,72 +40,94 @@
 .ajustaImagem {
   height: 150px;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 1366px) {
   .contato {
+    border-radius: 16px;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    flex: 0;
-    padding: 150px 10px;
+    height: 80%;
+    width: 70%;
+    box-shadow: 0px 0px 15px #0005;
+    background-color: #2b2d31;
   }
   .contact {
-    margin: 10px;
+    color: #fff;
     display: flex;
+    flex: 1;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: justify;
-    font-size: 13px;
+    padding: 0px 30px;
+    font-size: 22px;
   }
   .images {
     display: flex;
-    padding: 60px 10px;
+    flex: 1;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
   }
 
   .linkedin {
-    height: 60px;
+    border-radius: 15px;
+    height: 100px;
   }
   .insta {
-    height: 60px;
+    border-radius: 15px;
+    height: 100px;
   }
   .github {
-    height: 60px;
+    height: 100px;
+  }
+  .ajustaImagem {
+    height: 100px;
   }
 }
 
 @media (max-width: 576px) {
   .contato {
+    border-radius: 16px;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    flex: 0;
-    padding: 150px 10px;
+    height: 50%;
+    width: 85%;
+    box-shadow: 0px 0px 15px #0005;
+    background-color: #2b2d31;
   }
   .contact {
-    margin: 10px;
+    color: #fff;
     display: flex;
+    flex: 1;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: justify;
-    font-size: 13px;
+    padding: 0px 20px;
+    font-size: 15px;
   }
   .images {
     display: flex;
-    padding: 60px 10px;
+    flex: 1;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    align-items: center;
   }
 
   .linkedin {
-    height: 60px;
+    border-radius: 15px;
+    height: 65px;
   }
   .insta {
-    height: 60px;
+    border-radius: 15px;
+    height: 65px;
   }
   .github {
-    height: 60px;
+    height: 65px;
+  }
+  .ajustaImagem {
+    height: 65px;
   }
 }

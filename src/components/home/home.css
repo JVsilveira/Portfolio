@@ -33,49 +33,36 @@
 }
 @media (max-width: 576px) {
   .ajuste {
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 85%;
+    box-shadow: 0px 0px 15px #0005;
+    background-color: #2b2d31;
   }
 
   .bemVindo {
+    color: #fff;
     display: flex;
-    justify-content: center;
-    font-family: monospace;
-    font-size: 50px;
-  }
-  .texto {
-    text-align: justify;
-    display: flex;
-    align-content: start;
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    font-size: 14px;
-  }
-}
-@media (max-width: 768px) {
-  .ajuste {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     flex: 1;
-  }
-
-  .bemVindo {
-    display: flex;
-    justify-content: center;
-    font-family: monospace;
-    font-size: 50px;
-  }
-  .texto {
-    text-align: justify;
-    display: flex;
-    align-content: start;
-    padding: 10px;
     width: 100%;
     display: flex;
-    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 40px;
+  }
+  .texto {
+    color: #fff;
+    display: flex;
+    flex: 1;
+    text-align: justify;
+    justify-content: center;
+    align-content: center;
+    font-size: 13px;
+    padding: 0 30px;
   }
 }

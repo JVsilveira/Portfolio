@@ -25,7 +25,7 @@ footer.footer {
     font-size: 8px;
     display: flex;
     justify-content: center;
-    background-color: #e6e6e6;
-    color: black;
+    background-color: #313338;
+    color: #fff;
   }
 }
